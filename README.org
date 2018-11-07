@@ -1,0 +1,9 @@
+Invoke as: pdf_rename <dirpath>
+
+This prints out title, author and metadata for each pdf.
+
+Additionally, a file "tmp.csv" is created (in the directory from which
+pdf_rename was invoked) that contains the same info.
+
+FIXME should probably be called "pdf_print_meta" or similar, since it
+doesn't actually rename
